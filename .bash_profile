@@ -6,10 +6,8 @@ PATH=/usr/local/share/npm/bin:$PATH
 PATH=/usr/local/share/python:$PATH
 
 # Python - virtualenvwrapper
-if [ -f "virtualenvwrapper.sh" ]; then
-	source virtualenvwrapper.sh
-	export WORKON_HOME=~/Projects/virtualenvs
-fi
+source virtualenvwrapper.sh
+export WORKON_HOME=~/Projects/virtualenvs
 
 # turns on colors in ls
 alias ls='ls -G'
