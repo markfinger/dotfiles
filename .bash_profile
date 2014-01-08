@@ -1,9 +1,11 @@
 # Homebrew
 PATH=/usr/local/bin:$PATH
 # Homebrew - Node
-PATH=/usr/local/share/npm/bin:$PATH
+PATH=/usr/local/bin:/usr/local/share/npm/bin:$PATH
 # Homebrew - Python
 PATH=/usr/local/share/python:$PATH
+# MacPorts
+PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 # Python - virtualenvwrapper
 source virtualenvwrapper.sh
