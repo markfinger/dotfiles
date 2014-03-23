@@ -4,22 +4,8 @@
 [core]
   autocrlf = input
   safecrlf = true
-	excludesfile = /Users/mark/.gitignore_global
+	excludesfile = ~/.gitignore_global
   quotepath = false
-# Config recommendations from PeepCode's "Advanced Git"
-[alias]
-  co = checkout
-  # Log display from screencast, with train tracks.
-  l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
-  # Alternate log display from Scott Chacon
-  lol = log --pretty=oneline --abbrev-commit --graph --decorate
-  # Other useful aliases:
-  unstage = reset HEAD
-  staged = diff --cached
-  unstaged = diff
-  current-branch = !git symbolic-ref -q HEAD | sed -e 's|^refs/heads/||'
-  # Usage: git track origin/feature-123-login-form
-  track = checkout -t
 [apply]
   whitespace = warn
 [color]
@@ -34,9 +20,3 @@
 [push]
   # Only push branches that have been set up to track a remote branch.
   default = current
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true

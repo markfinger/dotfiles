@@ -1,11 +1,7 @@
 # Homebrew
 PATH=/usr/local/bin:$PATH
 # Homebrew - Node
-PATH=/usr/local/bin:/usr/local/share/npm/bin:$PATH
-# Homebrew - Python
-PATH=/usr/local/share/python:$PATH
-# MacPorts
-PATH=/opt/local/bin:/opt/local/sbin:$PATH
+PATH=/usr/local/share/npm/bin:$PATH
 
 # Python - virtualenvwrapper
 source virtualenvwrapper.sh
@@ -21,6 +17,7 @@ export CLICOLOR=1
 alias ll='ls -al'
 # SourceTree
 alias st='stree'
+alias sublime='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
 # Show where you copy
 alias cp="cp -v"
 
