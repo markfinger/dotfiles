@@ -29,8 +29,8 @@ bind "set show-all-if-ambiguous on"
 export HISTCONTROL=ignoredups
 
 # enable the git bash completion commands
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-    . `brew --prefix`/etc/bash_completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
 fi
 
 # Set the prompt to show the current working directory
