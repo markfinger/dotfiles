@@ -28,6 +28,9 @@ bind "set show-all-if-ambiguous on"
 # Ignores dupes in the history
 export HISTCONTROL=ignoredups
 
+# Set the number of lines to store in history
+export HISTFILESIZE=5000
+
 # enable the git bash completion commands
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
