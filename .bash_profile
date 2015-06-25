@@ -38,3 +38,6 @@ fi
 
 # Set the prompt to show the current working directory
 PS1="\[$(tput setaf 1)\]\w $ \[$(tput sgr0)\]"
+
+export NVM_DIR="/Users/markfinger/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
