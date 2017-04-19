@@ -32,9 +32,7 @@ export HISTCONTROL=ignoredups
 export HISTFILESIZE=5000
 
 # enable the git bash completion commands
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
-fi
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
 # Set the prompt to show the current working directory
 PS1="\[$(tput setaf 1)\]\w $ \[$(tput sgr0)\]"
