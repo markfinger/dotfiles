@@ -16,7 +16,6 @@ export GREP_COLOR='1;32'
 export CLICOLOR=1 
 alias ll='ls -al'
 # SourceTree
-alias st='stree'
 alias sublime='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
 # Show where you copy
 alias cp="cp -v"
