@@ -15,8 +15,7 @@ export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;32'
 export CLICOLOR=1 
 alias ll='ls -al'
-# SourceTree
-alias sublime='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
+alias smerge='/Applications/Sublime\ Merge.app/Contents/SharedSupport/bin/smerge .'
 # Show where you copy
 alias cp="cp -v"
 
