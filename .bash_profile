@@ -2,6 +2,8 @@
 PATH=/usr/local/bin:$PATH
 # Homebrew - Node
 PATH=/usr/local/share/npm/bin:$PATH
+# postgres.app CLI
+PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
 
 # turns on colors in ls
 alias ls='ls -G'
