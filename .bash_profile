@@ -3,10 +3,6 @@ PATH=/usr/local/bin:$PATH
 # Homebrew - Node
 PATH=/usr/local/share/npm/bin:$PATH
 
-# Python - virtualenvwrapper
-source virtualenvwrapper.sh
-export WORKON_HOME=~/Projects/virtualenvs
-
 # turns on colors in ls
 alias ls='ls -G'
 # Turn on colours for other stuff
