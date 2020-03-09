@@ -27,7 +27,7 @@ bind "set show-all-if-ambiguous on"
 export HISTCONTROL=ignoredups
 
 # Set the number of lines to store in history
-export HISTFILESIZE=20000
+export HISTFILESIZE=99999999
 
 # enable the git bash completion commands
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion

@@ -2,7 +2,7 @@
   name = Mark Finger
   email = markfinger@gmail.com
 [core]
-	autocrlf = false
+  autocrlf = false
   safecrlf = true
   excludesfile = ~/.gitignore_global
   quotepath = false
