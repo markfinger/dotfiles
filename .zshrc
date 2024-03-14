@@ -12,10 +12,12 @@ alias ll="ls -al"
 # Show where you copy
 alias cp="cp -v"
 
-# Init `nvm`
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-
 # Custom prompt to show full path to current working directory
 setopt PROMPT_SUBST
 PROMPT='${(%):-%~} $ '
+
+# Init `nvm`
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+# Load nvm bash_completion
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
