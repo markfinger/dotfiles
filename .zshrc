@@ -12,6 +12,8 @@ alias ll="ls -al"
 # Show where you copy
 alias cp="cp -v"
 
+alias gitfap="git fetch --all --prune"
+
 # Custom prompt to show full path to current working directory
 setopt PROMPT_SUBST
 PROMPT='${(%):-%~} $ '
