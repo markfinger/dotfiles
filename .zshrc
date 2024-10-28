@@ -31,6 +31,7 @@ eval "$(pyenv init -)"
 
 # ZSH uses the hash symbol `#` as a glob, which breaks my usecases of commenting out lines in a terminal 
 unsetopt extended_glob
+setopt interactive_comments
 
 # Used for `uv` python tool
 . "$HOME/.cargo/env"
