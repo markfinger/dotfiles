@@ -12,7 +12,7 @@ alias ll="ls -al"
 # Show where you copy
 alias cp="cp -v"
 
-alias gitfap="git fetch --all --prune"
+alias gitfpa="git fetch --prune --all"
 
 # Custom prompt to show full path to current working directory
 setopt PROMPT_SUBST
@@ -29,3 +29,8 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
+# ZSH uses the hash symbol `#` as a glob, which breaks my usecases of commenting out lines in a terminal 
+unsetopt extended_glob
+
+# Used for `uv` python tool
+. "$HOME/.cargo/env"
